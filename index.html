@@ -8,22 +8,22 @@
 </head>
 <body>
     <div class="bg-cover pb-20" style="background-image: url('img/Conversation-for-Tomorrow-8-Dotcom-banner.jpg');" >
-        <nav class="pt-14 hover:bg-white">
-            <div class="flex gap-8 text-white hover:text-black text-lg w-full">
+        <nav class="pt-14 bg-white fixed w-full">
+            <div class="flex gap-8 hover:text-black text-lg w-full">
                 <div>
-                    <img class="" src="img/logo-white.svg" alt="logo">
+                    <img class="" src="img/logo.svg" alt="logo">
                 </div>
                 
-                <div class="flex justify-between">
-                    <ul class="text-white text-lg flex gap-10">
+                <div class="flex justify-between relative w-full">
+                    <ul class="text-lg flex gap-10">
                         <li>Insights</li>
                         <li>Industries</li>
                         <li>Services</li>
                         <li>Careers</li>
                         <li>News</li>
-                        <li>Abouts</li>
+                        <li>About us</li>
                     </ul>
-                    <ul>
+                    <ul class="absolute right-2">
                         <li>Search</li>
                     </ul>
                 </div>   
@@ -37,13 +37,16 @@
         </div>
     </div>
 
-    <section class="pt-16 pb-16 bg-[#FBFBFB]">
+    <section class="pt-16 pb-16 bg-[#fbfbfbf7]">
         <div class="flex justify-end relative">
-            <img class="w-[700px] h-full pr-20" src="img/Americas-cup.jpeg" alt="">
-            <div class="absolute w-2/3 h-2/3 left-40 top-4 -bottom-4 bg-white">
+            <img class="w-[600px] h-full pr-20" src="img/Americas-cup.jpeg" alt="">
+            <div class="absolute w-[690px] h-[280px] left-20 top-8 bg-white shadow-xl">
                 <h1 class="pt-10 px-10 text-3xl font-medium">100 days to go!</h1>
                 <p class="px-10 pt-10">The 37th America's Cup: Cutting-edge technology and sheer team spirit</p>
-                <button class="items-end">Read more</button>
+                <div class="absolute right-1 bottom-2 border rounded-3xl border-black px-5 py-3 hover:bg-[#02E6E3] flex gap-3">
+                    <button class="">Read more</button>
+                    <img src="img/icon-more-small-dark.svg" alt="">
+                </div>
             </div>
         </div>
     </section>
